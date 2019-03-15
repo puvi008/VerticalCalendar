@@ -6,8 +6,16 @@
 ## Including in your project
 ```
 dependencies {  
-    compile 'br.com.jpttrindade:calendarview:0.7.3'  
+implementation 'com.github.puvi008:VerticalCalendar:Tag'
+ 
 }
+
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 ```
 
 ## Usage
@@ -22,4 +30,7 @@ Designer: [Ismael Gaião Filho][3]
 [1]: https://github.com/jpttrindade/CalendarView/blob/master/screenshot/sample1.gif
 [2]: https://opensource.org/licenses/MIT
 [3]: http://cargocollective.com/gaiaofilho
+
+## Note
+We have enchanced jpttrindade Library adding like max and min date and item selection item
 
