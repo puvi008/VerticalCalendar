@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">CalendarVIew</string>
+
+    <string name="sunday">s</string>
+    <string name="monday">m</string>
+    <string name="tuesday">t</string>
+    <string name="wednesday">w</string>
+    <string name="thursday">t</string>
+    <string name="friday">f</string>
+    <string name="saturday">s</string>
+
+
+
+    <string-array name="weeks">
+        <item name="sun">sun</item>
+        <item name="mon">mon</item>
+        <item name="tue">tue</item>
+        <item name="wed">wed</item>
+        <item name="thu">thu</item>
+        <item name="fri">fri</item>
+        <item name="sat">sat</item>
+    </string-array>
+
+
+
+
+
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+
+
+</resources>
+

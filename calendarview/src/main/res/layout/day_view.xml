@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/selectableItemBackgroundBorderless">
+
+    <FrameLayout
+        android:id="@+id/tv_day_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <View
+            android:id="@+id/today_circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_day" />
+
+        <TextView
+            android:id="@+id/tv_day"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:textSize="@dimen/_20sdp"
+            android:fontFamily="@font/opensans_semibold"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <View
+            android:id="@+id/every_first"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/first_of_month" />
+
+        <View
+            android:id="@+id/blocked"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@color/font3"/>
+
+    </FrameLayout>
+
+
+    <View
+        android:id="@+id/circle"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_below="@id/tv_day_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/circle" />
+
+
+</RelativeLayout>

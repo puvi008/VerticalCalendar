@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="default_todayCircleColor">@color/colorPrimary</color>
+    <color name="default_eventCircleColor">@color/colorAccent</color>
+    <color name="default_backgroundColor">#fffafafa</color>
+
+    <color name="font1">#B2B6BF</color>
+
+    <color name="black">#000000</color>
+
+    <color name="default_firstWeekColor">#ff0000</color>
+    
+    <color name="font2">#6F61D0</color>
+    <color name="font3">#7Fd5d7dd</color>
+    <color name="white">#ffffff</color>
+    <color name="font4">#80303F9F</color>
+
+
+</resources>

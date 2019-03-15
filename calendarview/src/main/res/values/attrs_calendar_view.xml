@@ -1,0 +1,52 @@
+<resources>
+    <declare-styleable name="CalendarView">
+
+
+        <!-- Month Label Attrs -->
+        <attr name="monthLabelPadding" format="dimension" />
+        <attr name="monthLabelPaddingTop" format="dimension" />
+        <attr name="monthLabelPaddingTopBottom" format="dimension" />
+        <attr name="monthLabelPaddingTopStart" format="dimension" />
+        <attr name="monthLabelPaddingTopEnd" format="dimension" />
+        <attr name="monthLabelHeight" format="dimension" />
+        <attr name="monthLabelSize" format="dimension" />
+        <attr name="monthLabelColor" format="color|reference" />
+
+
+        <attr name="monthDividerSize" format="dimension" />
+
+        <!-- Weekrow attrs -->
+        <attr name="dayHeight" format="dimension" />
+        <attr name="dayWidth" format="dimension" />
+
+
+        <attr name="todayCircleSize" format="dimension" />
+        <attr name="todayCircleColor" format="color|reference" />
+        <attr name="eventCircleColor" format="color|reference" />
+
+        <attr name="weekdayNameHeight" format="dimension" />
+        <attr name="weekdayNameBackgroundColor" format="color|reference" />
+        <attr name="weekEndDifferenctColor" format="boolean" />
+        <attr name="weekEndColor" format="color" />
+        <attr name="weekLabelColor" format="color" />
+        <attr name="weekLabelFormat"></attr>
+        <attr name="markEveryFirstofMonth" format="boolean"></attr>
+        <attr name="maxDate" format="string"></attr>
+        <attr name="minDate" format="string"></attr>
+        <attr name="dayTextSize" format="float" />
+        <attr name="daySpace" format="float" />
+        <attr name="dayblockedcolor" format="color"></attr>
+
+
+
+
+        <!--<attr name="exampleDimension" format="dimension" />-->
+        <!--<attr name="exampleColor" format="color" />-->
+        <!--<attr name="exampleDrawable" format="color|reference" />-->
+    </declare-styleable>
+
+    <attr name="weekLabelFormat" format="enum">
+        <enum name="format_s" value="0" />
+        <enum name="format_sun" value="1" />
+    </attr>
+</resources>
