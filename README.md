@@ -32,5 +32,5 @@ Designer: [Ismael Gaião Filho][3]
 [3]: http://cargocollective.com/gaiaofilho
 
 ## Note
-We have enchanced jpttrindade Library adding like max and min date and item selection item
+We have enchanced jpttrindade Library adding like max and min date and date selection.
 
